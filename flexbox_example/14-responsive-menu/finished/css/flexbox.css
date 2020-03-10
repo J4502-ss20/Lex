@@ -1,0 +1,26 @@
+/* =================================
+  Flexbox
+==================================== */
+
+
+<meta http-equiv="content-type"
+	content="text/html;charset=utf-8" />
+
+.container {
+	display: flex;
+	flex-direction: column;
+}
+
+@media (min-width: 600px) {
+	.container {
+		flex-direction: row;
+		justify-content: center;
+	}
+}
+
+@media (min-width: 800px) {
+
+	.item-1 {
+		margin-right: auto;
+	}
+}
