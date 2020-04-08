@@ -189,12 +189,8 @@ body{
   }
 
   .card4 {
-      grid-column: 2 / 4;
+      grid-column: 2 / 3;
       grid-row: 2;
   }
 
-  .card5 {
-      grid-column: 2 / 4;
-      grid-row: 3;
-    }
 }
