@@ -194,3 +194,28 @@ body{
   }
 
 }
+
+
+body {
+  background-color: #F8ECC2;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+nav ul li {
+    display: block;
+    border-top: 1px #79896d solid;
+}
+
+nav a {
+    color: #f8ecc2;
+    display: block;
+    text-decoration: none;
+    padding: 10px 30px;
+}
+
+header {
+    display: flex;
+    flex-flow: row;
+    background-color: #ffb17d;
+    margin: 0;
+    padding: 0 10px;
